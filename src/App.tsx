@@ -98,7 +98,7 @@ function App() {
           preload="auto"
           onCanPlayThrough={(e) => e.currentTarget.play()}
 >
-  <source src="src/fireworkbg.mp4" type="video/mp4" />
+  <source src="src\fireworkbg.mp4" type="video/mp4" />
           {/* Fallback image in case video doesn't load */}
           
         </video>
