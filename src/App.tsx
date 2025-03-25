@@ -109,7 +109,7 @@ function App() {
           <AnimatedElement animation="fade-down" duration={0.8} delay={0.2}>
             <div className="mb-12 flex justify-center">
               <img 
-                src="src/logo.svg" 
+                src="src\ichilogo.png" 
                 alt="Festival Logo" 
                 className="w-60 md:w-50 lg:w-80 mx-auto"
               />
