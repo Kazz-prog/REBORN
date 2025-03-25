@@ -98,7 +98,14 @@ function App() {
           preload="auto"
           onCanPlayThrough={(e) => e.currentTarget.play()}
 >
-  <source src="/fireworkbg.mp4" type="video/mp4" />
+<div className="absolute inset-0 w-full h-full object-cover pointer-events-none">
+    <img 
+      src="https://giffiles.alphacoders.com/843/84321.gif" 
+      alt="Firework background"
+      className="w-full h-full object-cover opacity-90"
+      style={{ position: 'absolute', top: 0, left: 0 }}
+    />
+  </div>
           {/* Fallback image in case video doesn't load */}
           
         </video>
