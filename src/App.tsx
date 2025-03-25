@@ -98,7 +98,7 @@ function App() {
           preload="auto"
           onCanPlayThrough={(e) => e.currentTarget.play()}
 >
-  <source src="src\fireworkbg.mp4" type="video/mp4" />
+  <source src="/fireworkbg.mp4" type="video/mp4" />
           {/* Fallback image in case video doesn't load */}
           
         </video>
@@ -109,7 +109,7 @@ function App() {
           <AnimatedElement animation="fade-down" duration={0.8} delay={0.2}>
             <div className="mb-12 flex justify-center">
               <img 
-                src="src\ichilogo.png" 
+                src="/logo.svg" 
                 alt="Festival Logo" 
                 className="w-60 md:w-50 lg:w-80 mx-auto"
               />
